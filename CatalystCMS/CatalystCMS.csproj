@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.28" />
+    <PackageReference Include="Microsoft.Owin.Security.Jwt" Version="4.2.2" />
+	  <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.9" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CatalystCMS.BAL\CatalystCMS.BAL.csproj" />
+    <ProjectReference Include="..\CatalystCMS.DAL\CatalystCMS.DAL.csproj" />
+    <ProjectReference Include="..\CatalystCMS.Models\CatalystCMS.Models.csproj" />
+  </ItemGroup>
+
+</Project>

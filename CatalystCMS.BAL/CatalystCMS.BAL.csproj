@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CatalystCMS.DAL\CatalystCMS.DAL.csproj" />
+    <ProjectReference Include="..\CatalystCMS.Models\CatalystCMS.Models.csproj" />
+  </ItemGroup>
+
+</Project>
